@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Feed | LinkedIn</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="stylesheet" href="CSS/reset.css">
+  <link rel="stylesheet" href="CSS/mobile.css">
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="">
+      <img class="LinkedIn" id="img1" src="imagens\linkedin_logo.png" alt="linkedin_logo">
+      <img id="img2" style="border-radius: 100%;width: 30px; margin-right: 20px;"src="imagens\mateus.jfif" alt="">
+    </div>
+    <div>
+      <input type="text" name="" placeholder="🔎Pesquisar">
+      <ion-icon name="search-outline"></ion-icon>
+    </div>
+    <div class="bar">
+      <svg id="global-nav-icon--mercado__home--active" height="24" width="24">
+        <path d="m23 9v2h-2v7c0 1.7-1.3 3-3 3h-4v-6h-4v6h-4c-1.7 0-3-1.3-3-3v-7h-2v-2l11-7z"></path>
+        <path d="m20 2h-3v3.2l3 1.9z"></path>
+      </svg>
+      <svg id="global-nav-icon--mercado__my-network" height="24" width="24">
+        <path d="m12 16v6h-9v-6c0-1.7 1.3-3 3-3h3c1.7 0 3 1.3 3 3zm5.5-3c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5zm1 2h-2c-1.4 0-2.5 1.1-2.5 2.5v4.5h7v-4.5c0-1.4-1.1-2.5-2.5-2.5zm-11-13c-2.5 0-4.5 2-4.5 4.5s2 4.5 4.5 4.5 4.5-2 4.5-4.5-2-4.5-4.5-4.5z"></path>
+      </svg>
+      <svg id="global-nav-icon--mercado__jobs" height="24" width="24">
+        <path d="m17 6v-1c0-1.7-1.3-3-3-3h-4c-1.7 0-3 1.3-3 3v1h-5v4c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-4zm-8-1c0-.6.4-1 1-1h4c.6 0 1 .4 1 1v1h-6zm10 9c1.2 0 2.3-.5 3-1.4v4.4c0 1.7-1.3 3-3 3h-14c-1.7 0-3-1.3-3-3v-4.4c.7.9 1.8 1.4 3 1.4z"></path>
+      </svg>
+      <svg id="global-nav-icon--mercado__messaging" height="24" width="24">
+        <path d="M16 3H8C6.14348 3 4.36301 3.77847 3.05025 5.16416C1.7375 6.54984 1 8.42923 1 10.3889C1 12.3485 1.7375 14.2279 3.05025 15.6136C4.36301 16.9993 6.14348 17.7778 8 17.7778H12V22L20.16 16.3106C21.0512 15.639 21.7751 14.7495 22.2697 13.7183C22.7643 12.687 23.0148 11.5446 23 10.3889C23 8.42923 22.2625 6.54984 20.9497 5.16416C19.637 3.77847 17.8565 3 16 3ZM8 11.7083C7.75277 11.7083 7.5111 11.631 7.30554 11.486C7.09998 11.341 6.93976 11.1349 6.84515 10.8938C6.75054 10.6527 6.72579 10.3874 6.77402 10.1315C6.82225 9.87553 6.9413 9.64043 7.11612 9.4559C7.29093 9.27137 7.51366 9.14571 7.75614 9.0948C7.99861 9.04389 8.24995 9.07002 8.47835 9.16988C8.70676 9.26975 8.90199 9.43886 9.03934 9.65585C9.17669 9.87283 9.25 10.1279 9.25 10.3889C9.25 10.7388 9.1183 11.0744 8.88388 11.3219C8.64946 11.5693 8.33152 11.7083 8 11.7083ZM12 11.7083C11.7528 11.7083 11.5111 11.631 11.3055 11.486C11.1 11.341 10.9398 11.1349 10.8452 10.8938C10.7505 10.6527 10.7258 10.3874 10.774 10.1315C10.8222 9.87553 10.9413 9.64043 11.1161 9.4559C11.2909 9.27137 11.5137 9.14571 11.7561 9.0948C11.9986 9.04389 12.2499 9.07002 12.4784 9.16988C12.7068 9.26975 12.902 9.43886 13.0393 9.65585C13.1767 9.87283 13.25 10.1279 13.25 10.3889C13.25 10.7388 13.1183 11.0744 12.8839 11.3219C12.6495 11.5693 12.3315 11.7083 12 11.7083ZM16 11.7083C15.7528 11.7083 15.5111 11.631 15.3055 11.486C15.1 11.341 14.9398 11.1349 14.8452 10.8938C14.7505 10.6527 14.7258 10.3874 14.774 10.1315C14.8222 9.87553 14.9413 9.64043 15.1161 9.4559C15.2909 9.27137 15.5137 9.14571 15.7561 9.0948C15.9986 9.04389 16.2499 9.07002 16.4784 9.16988C16.7068 9.26975 16.902 9.43886 17.0393 9.65585C17.1767 9.87283 17.25 10.1279 17.25 10.3889C17.25 10.7388 17.1183 11.0744 16.8839 11.3219C16.6495 11.5693 16.3315 11.7083 16 11.7083Z"></path>
+      </svg>
+      <svg id="global-nav-icon--mercado__notifications" height="24" width="24">
+        <path d="M13.7 19C13.9 19.3 14 19.6 14 20C14 21.1 13.1 22 12 22C10.9 22 10 21.1 10 20C10 19.6 10.1 19.3 10.3 19H2V18C2 17 2.4 16.1 3.2 15.2L4.2 14H19.9L20.9 15.2C21.7 16.2 22.1 17.1 22.1 18V19H13.7ZM18.2 7.4C17.8 4.3 15.1 2 12 2C8.9 2 6.2 4.3 5.8 7.4L5 13H19L18.2 7.4Z"></path>
+      </svg>
+      <img style="border-radius: 100%;width: 30px; margin-right: 20px;"src="imagens\mateus.jfif" alt="">
+      <svg id="global-nav-icon--classic__work" height="24" width="24">
+        <path d="M10 10h4v4h-4v-4zm0 11h4v-4h-4v4zm-7-7h4v-4H3v4zm0 7h4v-4H3v4zM3 7h4V3H3v4zm14 7h4v-4h-4v4zm0-11v4h4V3h-4zm-7 4h4V3h-4v4zm7 14h4v-4h-4v4z"></path>
+      </svg>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="profile">
+        <img id="profile" src="imagens\mateus.jfif" alt="">
+        <a href="https://www.linkedin.com/in/mkvasconcelos/">
+          <p>Mateus Kavamoto Vasconcelos</p>
+        </a>
+        <h3>Desenvolvedor Web</h3>
+      </div>
+      <div class="profile2">
+        <p>Grupos</p>
+        <p>Eventos</p>
+        <p>Hashtags seguidas</p>
+        <hr>
+        <span>Descubra mais</span>
+      </div>
+    </section>
+
+    <section class="central">
+      <div class="post" id="post">
+        <div class="post_post">
+          <form action="#popup1">
+            <button type="submit" name="button">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                <path d="M19 12h2v6a3 3 0 01-3 3H6a3 3 0 01-3-3V6a3 3 0 013-3h6v2H6a1 1 0 00-1 1v12a1 1 0 001 1h12a1 1 0 001-1zm4-8a2.91 2.91 0 01-.87 2l-8.94 9L7 17l2-6.14 9-9A3 3 0 0123 4zm-4 2.35L17.64 5l-7.22 7.22 1.35 1.34z"></path>
+              </svg>
+              <span>Começar publicação</span>
+            </button>
+          </form>
+        </div>
+        <div class="post_post_interact">
+          <button type="button" name="button"><svg style="color:#70B5F9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+            <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z"></path>
+            </svg>
+            <span>Foto</span>
+          </button>
+          <button type="button" name="button"><svg style="color:#7FC15E" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z"></path>
+            </svg>
+            <span>Vídeo</span>
+          </button>
+          <button type="button" name="button"><svg style="color:#E7A33E" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z"></path>
+            </svg>
+            <span>Evento</span>
+          </button>
+          <button type="button" name="button"><svg style="color:#F5987E" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z"></path>
+            </svg>
+            <span>Escrever artigo</span>
+          </button>
+        </div>
+      </div>
+      <!--.....................................Google...............................-->
+      <div class="post">
+        <form action="https://www.linkedin.com/company/google/">
+          <button type="submit" name="button">
+            <header>
+              <img class="logo" src="imagens\google_logo.png" alt="google_logo">
+              <div class="logo_text">
+                <a href="https://www.linkedin.com/company/google/">
+                  <p>Google</p>
+                </a>
+                <p>20.493.802 seguidores</p>
+                <div class="">
+                  <p>1 sem • </p>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                    <path
+                      d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+            </header>
+          </button>
+        </form>
+        <div class="post_text">
+          <p><a href="#"><span>#DeveloperStudentClubs</span></a> invites students
+            around the world to join the Solution Challenge! 🌍 </p>
+          <p>Use Android, TensorFlow, Flutter, or your favorite Google technology
+            to support the United Nations' Sustainable Development Goal that
+            inspires you most.</p>
+          <p>Register now → <a href="https://developers.google.com/community/dsc-solution-challenge"><span>goo.gle/solutionchallenge</span></a></p>
+        </div>
+        <div class="post_image">
+          <video loop="loop" autoplay="autoplay" controls muted>
+            <source src="imagens\google.mp4" type="video/mp4">
+          </video>
+          <h2>Developer Student Clubs Solution Challenge</h2>
+        </div>
+        <div class="interactions">
+          <img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb" alt="LIKE" data-test-reactions-icon-type="LIKE">
+          <img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f" alt="PRAISE" data-test-reactions-icon-type="PRAISE">
+          <img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="EMPATHY" data-test-reactions-icon-type="EMPATHY">
+          <span>1.934 • 33 comentários • 91.704 visualizações</span>
+        </div>
+        <hr>
+        <div class="interact">
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path
+                d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z">
+              </path>
+            </svg>
+            <span>Gostei</span>
+          </button>
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
+            </svg>
+            <span>Comentar</span>
+          </button>
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
+            </svg>
+            <span>Compartilhar</span>
+          </button>
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+            </svg>
+            <span>Enviar</span>
+          </button>
+        </div>
+      </div>
+      <!--.....................................Nubank...............................-->
+      <div class="post">
+        <form action="https://www.linkedin.com/company/nubank/">
+          <button type="submit" name="button">
+            <header>
+              <img class="logo" src="imagens\nubank_logo.png" alt="nubank_logo">
+              <div class="logo_text">
+                <a href="https://www.linkedin.com/company/nubank/">
+                  <p>Nubank</p>
+                </a>
+                <p>2.917.372 seguidores</p>
+                <div class="">
+                  <p>1 m • </p>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                    <path
+                      d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+            </header>
+          </button>
+        </form>
+        <div class="post_text">
+          <p> Guardar dinheiro e ter uma vida financeira saudável é um desafio
+            para muitos brasileiros. Para começar o ano bem, e cumprindo todas
+            as metas, separamos algumas dicas para te ajudar a organizar as
+            suas finanças pessoais.👇</p>
+        </div>
+        <a href="https://blog.nubank.com.br/financas-pessoais/">
+          <div class="post_image">
+            <img src="imagens\nubank.jpeg" alt="nubank">
+            <h2>Finanças pessoais: 5 passos rápidos para organizá-las - Fala,
+              Nubank
+            </h2>
+            <h4>blog.nubank.com.br • 5 min de leitura</h4>
+          </div>
+        </a>
+        <div class="interactions">
+          <img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb" alt="LIKE" data-test-reactions-icon-type="LIKE">
+          <img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f" alt="PRAISE" data-test-reactions-icon-type="PRAISE">
+          <img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="EMPATHY" data-test-reactions-icon-type="EMPATHY">
+          <span>4.538 • 182 comentários</span>
+        </div>
+        <hr>
+        <div class="interact">
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path
+                d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z">
+              </path>
+            </svg>
+            <span>Gostei</span>
+          </button>
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
+            </svg>
+            <span>Comentar</span>
+          </button>
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
+            </svg>
+            <span>Compartilhar</span>
+          </button>
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+            </svg>
+            <span>Enviar</span>
+          </button>
+        </div>
+      </div>
+      <!--.....................................Radix...............................-->
+      <div class="post">
+        <form action="https://www.linkedin.com/company/radix-engenharia-e-software/">
+          <button type="submit" name="button">
+            <header>
+              <img class="logo" src="imagens\radix_logo.jpeg" alt="radix_logo">
+              <div class="logo_text">
+                <a href="https://www.linkedin.com/company/radix-engenharia-e-software/">
+                  <p>Radix Engenharia e Software</p>
+                </a>
+                <p>33.902 seguidores</p>
+                <div class="">
+                  <p>1 sem • </p>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                    <path
+                      d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+            </header>
+          </button>
+        </form>
+        <div class="post_text">
+          <p>Usar a tecnologia para juntar o real com o virtual tem sido cada
+            vez mais uma necessidade do mercado para otimizar processos e
+            melhorar a tomada de decisões. Reunindo seu conhecimento de
+            desenvolvimento de software com engenharia e a expertise em
+            tecnologias da Indústria 4.0, a Radix desenvolve aplicações
+            customizadas para a indústria, como o sistema de reconhecimento e
+            mapeamento de dados em tempo real.</p>
+          <p>Com a solução, é possível controlar os preços praticados em
+            todas as lojas de distribuição do cliente, além de avaliar os
+            valores praticados pelos concorrentes.</p>
+          <p>Entre em contato com a Radix e saiba como podemos colaborar com a
+            sua empresa: <a href="#"><span>radixeng@radixeng.com.br</span></a></p>
+          <p> <a href="#"><span>#radix</span></a> <a href="#"><span>#radixeng</span></a>
+            <a href="#"><span>#solucoestecnologicas</span></a> <a href="#"><span>#engenhariadesoftware</span></a>
+            <a href="#"><span>#tecnologia</span></a>
+          </p>
+        </div>
+        <a href="https://www.radixeng.com.br/noticias/413/radix-desenvolve-aplicacao-para-reconhecimento-e-mapeamento-de-dados-em-tempo-real">
+          <div class="post_image">
+            <img src="imagens\radix.jpeg" alt="radix">
+            <h2>Radix | Radiz desenvolve aplicação para reconhecimento e mapeamento
+              de dados em tempo real</h2>
+            <h4>radiexeng.com.br • 1 min de leitura</h4>
+          </div>
+        </a>
+        <div class="interactions">
+          <img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb" alt="LIKE" data-test-reactions-icon-type="LIKE">
+          <img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f" alt="PRAISE" data-test-reactions-icon-type="PRAISE">
+          <img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="EMPATHY" data-test-reactions-icon-type="EMPATHY">
+          <span>95</span>
+        </div>
+        <hr>
+        <div class="interact">
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path
+                d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z">
+              </path>
+            </svg>
+            <span>Gostei</span>
+          </button>
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
+            </svg>
+            <span>Comentar</span>
+          </button>
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
+            </svg>
+            <span>Compartilhar</span>
+          </button>
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+            </svg>
+            <span>Enviar</span>
+          </button>
+        </div>
+      </div>
+      <!--.....................................Ambev...............................-->
+      <div class="post">
+        <form action="https://www.linkedin.com/company/ambev/">
+          <button type="submit" name="button">
+            <header>
+              <img class="logo" src="imagens\ambev_logo.jpeg" alt="ambev_logo">
+              <div class="logo_text">
+                <a href="https://www.linkedin.com/company/ambev/">
+                  <p>Ambev</p>
+                </a>
+                <p>2.213.066 seguidores</p>
+                <div class="">
+                  <p>6 d • </p>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                    <path
+                      d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+            </header>
+          </button>
+        </form>
+        <div class="post_text">
+          <p>Não é legal quando as coisas se conectam? E não estamos falando só
+            dos plugs de energia. ⚡</p>
+          <p>Lá em 2019, a startup FNM participou do programa Aceleradora 100+
+            da Ambev. Agora, fechamos uma parceria com eles e a montadora
+            brasileira Agrale para a produção de 1000 veículos elétricos. É a
+            inovação gerando inovação.</p>
+          <p>Cada veículo deixa de emitir 126 toneladas de CO2 por ano, parte do
+            nosso compromisso de reduzir em 25% nossas emissões em toda a cadeia
+            até 2025. Saiba mais em:</p>
+          <p><a href="https://lnkd.in/dX6rBFs"></a> <span>https://lnkd.in/dX6rBFs</span></p>
+          <p><a href="#"><span>#Sustentabilidade 🌎</span></a></p>
+        </div>
+        <div class="post_image">
+          <video loop="loop" autoplay="autoplay" controls muted>
+            <source src="imagens\ambev.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="interactions">
+          <img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb" alt="LIKE" data-test-reactions-icon-type="LIKE">
+          <img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f" alt="PRAISE" data-test-reactions-icon-type="PRAISE">
+          <img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="EMPATHY" data-test-reactions-icon-type="EMPATHY">
+          <span>4.190 • 144 comentários • 47.173 visualizações</span>
+        </div>
+        <hr>
+        <div class="interact">
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path
+                d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z">
+              </path>
+            </svg>
+            <span>Gostei</span>
+          </button>
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
+            </svg>
+            <span>Comentar</span>
+          </button>
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
+            </svg>
+            <span>Compartilhar</span>
+          </button>
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+            </svg>
+            <span>Enviar</span>
+          </button>
+        </div>
+      </div>
+      <!--.....................................Michelin...............................-->
+      <div class="post">
+        <form action="https://www.linkedin.com/company/michelin/">
+          <button type="submit" name="button">
+            <header>
+              <img class="logo" src="imagens\michelin_logo.png" alt="michelin_logo">
+              <div class="logo_text">
+                <a href="https://www.linkedin.com/company/michelin/">
+                  <p>Michelin</p>
+                </a>
+                <p>470.307 seguidores</p>
+                <div class="">
+                  <p>6 d • </p>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                    <path
+                      d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+            </header>
+          </button>
+        </form>
+        <div class="post_text">
+          <p>Thrilled! ✈️ <a href="https://www.linkedin.com/company/air-france/">
+            <span>Air France</span></a> has renewed its trust in Michelin: we are
+            extending our historic partnership! For the next 10 years, we will
+            equip the Air France fleet with tires produced in France. Pioneers
+            in the field of French aviation and historic partners, Air France
+            and our group have always shared a common DNA: innovation at the
+            service of performance and safety. Over the next ten years, both
+            groups will continue to work together and steer the field of
+            innovation towards a shared ambition, to reduce the carbon footprint.
+            Read the full story, including a statement from Mauro Sponza,
+            Director of Aeronautical Activities at Michelin :
+            <a href="https://lnkd.in/db3Qdjg"><span>https://lnkd.in/db3Qdjg</span></a>
+            </p>
+        </div>
+        <a href="https://www.michelin.com/en/press-releases/air-france-chooses-michelin-as-its-exclusive-tire-supplier/?utm_medium=ORGSOC&utm_source=linkedin&utm_campaign=AviationBPRNOTPREDEF&utm_content=NOTPREDEFBrand">
+          <div class="post_image">
+            <img src="imagens\michelin.jpeg" alt="michelin">
+            <h2>Michelin - Air France chooses Michelin as its exclusive tire supplier</h2>
+            <h4>michelin.com • 1 min de leitura</h4>
+          </div>
+        </a>
+        <div class="interactions">
+          <img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb" alt="LIKE" data-test-reactions-icon-type="LIKE">
+          <img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f" alt="PRAISE" data-test-reactions-icon-type="PRAISE">
+          <img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="EMPATHY" data-test-reactions-icon-type="EMPATHY">
+          <span>3.675 • 47 comentários</span>
+        </div>
+        <hr>
+        <div class="interact">
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path
+                d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z">
+              </path>
+            </svg>
+            <span>Gostei</span>
+          </button>
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
+            </svg>
+            <span>Comentar</span>
+          </button>
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
+            </svg>
+            <span>Compartilhar</span>
+          </button>
+          <button type="button" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+            </svg>
+            <span>Enviar</span>
+          </button>
+        </div>
+      </div>
+
+    </section>
+    <section class="news">
+      <h1>LinkedIn Notícias</h1>
+      <ul>
+        <li><a href="https://www.linkedin.com/news/story/covid-19-as-%C3%BAltimas-not%C3%ADcias-sobre-as-vacinas-4053745/">
+          <h2>Covid-19: as últimas notícias sobre as v...</h2>
+          <h3>Notícias mais lidas • 2.462 leitores</h3></a>
+        </li>
+        <li><a href="https://www.linkedin.com/news/story/gm-planeja-encerrar-vendas-de-carros-a-gasolina-e-diesel-5362914/">
+          <h2>GM planeja encerrar as vendas de carros a...</h2>
+          <h3>há 5 h • 826 leitores</h3></a>
+        </li>
+        <li><a href="https://www.linkedin.com/news/story/h%C3%A1-vagas-confira-as-empresas-que-est%C3%A3o-contratando-4875444/">
+          <h2>Há vagas: confira as empresas que estã...</h2>
+          <h3>há 2 h • 9.094 leitores</h3></a>
+        </li>
+        <li><a href="https://www.linkedin.com/news/story/dona-da-99-doar%C3%A1-corridas-gr%C3%A1tis-para-agentes-de-sa%C3%BAde-4303209/">
+          <h2>Dona da 99 doará corridas grátis para a...</h2>
+          <h3>há 2 h • 1.096 leitores</h3></a>
+        </li>
+        <li><a href="https://www.linkedin.com/news/story/grupo-no-reddit-faz-a%C3%A7%C3%B5es-da-gamestop-subirem-700-4302489/">
+          <h2>Grupo no Reddit faz ações da GameSto...</h2>
+          <h3>há 1 d • 262 leitores</h3></a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <div class="bar2">
+      <svg id="global-nav-icon--mercado__home--active" height="24" width="24">
+        <path d="m23 9v2h-2v7c0 1.7-1.3 3-3 3h-4v-6h-4v6h-4c-1.7 0-3-1.3-3-3v-7h-2v-2l11-7z"></path>
+        <path d="m20 2h-3v3.2l3 1.9z"></path>
+      </svg>
+      <svg id="global-nav-icon--mercado__my-network" height="24" width="24">
+        <path d="m12 16v6h-9v-6c0-1.7 1.3-3 3-3h3c1.7 0 3 1.3 3 3zm5.5-3c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5zm1 2h-2c-1.4 0-2.5 1.1-2.5 2.5v4.5h7v-4.5c0-1.4-1.1-2.5-2.5-2.5zm-11-13c-2.5 0-4.5 2-4.5 4.5s2 4.5 4.5 4.5 4.5-2 4.5-4.5-2-4.5-4.5-4.5z"></path>
+      </svg>
+      <svg class="plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+        <path d="M14 9H9v5H7V9H2V7h5V2h2v5h5z"></path>
+      </svg>
+      <svg id="global-nav-icon--mercado__notifications" height="24" width="24">
+        <path d="M13.7 19C13.9 19.3 14 19.6 14 20C14 21.1 13.1 22 12 22C10.9 22 10 21.1 10 20C10 19.6 10.1 19.3 10.3 19H2V18C2 17 2.4 16.1 3.2 15.2L4.2 14H19.9L20.9 15.2C21.7 16.2 22.1 17.1 22.1 18V19H13.7ZM18.2 7.4C17.8 4.3 15.1 2 12 2C8.9 2 6.2 4.3 5.8 7.4L5 13H19L18.2 7.4Z"></path>
+      </svg>
+      <svg id="global-nav-icon--mercado__jobs" height="24" width="24">
+        <path d="m17 6v-1c0-1.7-1.3-3-3-3h-4c-1.7 0-3 1.3-3 3v1h-5v4c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-4zm-8-1c0-.6.4-1 1-1h4c.6 0 1 .4 1 1v1h-6zm10 9c1.2 0 2.3-.5 3-1.4v4.4c0 1.7-1.3 3-3 3h-14c-1.7 0-3-1.3-3-3v-4.4c.7.9 1.8 1.4 3 1.4z"></path>
+      </svg>
+  </div>
+</body>
+
+</html>
