@@ -1,0 +1,80 @@
+@media (max-width: 1000px){
+  header{
+
+  }
+
+  main{
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .bar{
+    display: none;
+  }
+
+  .bar2{
+    display: flex;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-top: solid 1px lightgrey;
+  }
+
+  .bar2 svg{
+    opacity: 0.5;
+  }
+
+  .bar2 svg:hover{
+    opacity: 1.0;
+  }
+
+  .central{
+    width: 100%;
+    margin:0;
+  }
+
+  .header{
+    padding: 5px;;
+    display: flex;
+  }
+
+  .header input{
+    width: 200%;
+  }
+
+  .news{
+    display: none;
+  }
+
+  .post{
+    width: 100%;
+  }
+
+  .profile{
+    display: none;
+  }
+
+  .profile2{
+    display: none;
+  }
+
+  #post{
+    display: none;
+  }
+
+  #img1{
+    visibility: none;
+    display: none;
+  }
+
+  #img2{
+    visibility: visible;
+    display: flex;
+    position: relative;
+    left: 20px;
+  }
+
+}
